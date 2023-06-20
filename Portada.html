@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>StatLab</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&family=Sigmar&display=swap"
+        rel="stylesheet">
+
+    <link rel="preload" href="CSS/estiloPortada.css" as="style">
+    <link href="CSS/estiloPortada.css" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header class="Inicio">
+        <div class="contenedor">
+            <div class="contenido">
+                <a href="Registro.html">Registrarse</a></li>
+                <h9>LAB INC</h9>
+                <a href="Registro.html">Iniciar sesión</a></li>
+            </div>
+            <div class="linea"></div>
+        </div>
+    </header>
+    <nav class="navegador">
+        <div class="contenedor">
+
+        </div>
+    </nav>
+    <section class="Portada">
+        <div class="selectores">
+            <div class="contenedor">
+                <div class="PorQueSelector">
+                    <h4><a href="#porque">¿Por qué estadística?</a></h4>
+                </div>
+                <div class="AprendeSelector">
+                    <h4><a href="#aprende">Aprende tu mismo</a></h4>
+                </div>
+                <div class="LogoSelector">
+                    <img src="Img/STATLAB pequeno-01.png">
+                </div>
+                <div class="ProfesionSelector">
+                    <h4><a href="#profesion">Escoge tu profesion</a></h4>
+                </div>
+                <div class="IASelector">
+                    <h4><a href="#ia">Inteligencia Artificial</a></h4>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="PorQueGrande" id="porque">
+        <div class="contenedor">
+            <div class="PorQueTexto" id="porquetexto">
+                <h5>La estadística tiene muchas aplicaciones en diferentes áreas como:</h5>
+                <h5>
+                    <ul>
+                        <li>Análisis deportivo.</li>
+                        <li>Bioestadística.</li>
+                        <li>Investigación de mercado.</li>
+                        <li>Finanzas.</li>
+                        <li>Análsis de mercados/marketing.</li>
+                    </ul>
+                </h5>
+            </div>
+            <div class="PorQueBoton" id="porqueboton">
+                <a href="PorQue.html">¡Descúbrelo aqui!</a>
+            </div>
+        </div>
+    </section>
+    <section class="Aprende" id="aprende">
+        <div class="contenedor">
+            <div class="AprendeBoton">
+                <a href="Aprende.html">¡Comienza ya!</a>
+            </div>
+            <div class="AprendeTexto">
+                <h5>Puedes aprender de forma</h5>
+                <h5>autodidacta con nuestras</h5>
+                <h5>lecciones. Organizadas para</h5>
+                <h5>aprender paso a paso, y desde</h5>
+                <h5>cero, para iniciarte y tener</h5>
+                <h5>las nociones básicas...</h5>
+                <h5>Ahora, amplía tus conocimientos</h5>
+                <h5>y descubre nuevas posibilidades.</h5>
+            </div>
+        </div>
+    </section>
+    <section class="Profesion" id="profesion">
+        <div class="contenedor">
+            <div class="ProfesionTexto" id="profesiontexto">
+                <h5>En StatLab tenemos el objetivo de</h5>
+                <h5>fabricar profesionales del mundo del</h5>
+                <h5>dato y la estadística. Te guiamos para</h5>
+                <h5>que tengas claro cual es la profesión</h5>
+                <h5>que más te agrada, y te hacemos damos</h5>
+                <h5>una estructura para que lo logres.</h5>
+            </div>
+            <div class="ProfesionBoton" id="profesionboton">
+                <a href="Profesion.html">¡Ven, te ayudamos!</a>
+            </div>
+        </div>
+    </section>
+    <section class="IA" id="ia">
+        <div class="contenedor">
+            <div class="IABoton">
+                <a href="IA.html">¡Míralos ya aquí!</a>
+            </div>
+            <div class="IATexto">
+                <h5>¿Sabías que detrás de ChatGPT</h5>
+                <h5>y toda la IA, se esconden</h5>
+                <h5>muchos de los principios de</h5>
+                <h5>la estadística y los datos?</h5>
+            </div>
+        </div>
+    </section>
+    <section class="Contacto">
+        <div class="contenedor">
+            <h5>En StatLab estamos obsesionados con mejorar, por eso queremos que</h5>
+            <h5>por favor nos hagas llegar todas las sugerencias que pueda hacernos mejores...</h5>
+
+            <form action="enviar_correo.php" method="POST">
+                <label for="correo">Correo electrónico:</label>
+                <input type="email" name="correo" id="correo" class="campo-correo"
+                    placeholder="Ingrese su correo electrónico" required>
+
+                <label for="mensaje">Mensaje:</label>
+                <textarea name="mensaje" id="mensaje" class="campo-mensaje" placeholder="Escriba su mensaje..."
+                    required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </div>
+    </section>
+
+    <footer class="final">
+        <div class="contenedor">
+            <div class="linea"></div>
+            <div class="contenido">
+                <div class="logo">
+                    <img src="Img/STATLAB pequeno-01.png">
+                </div>
+                <div class="redes-sociales">
+                    <img src="Img/redessociales.jpg">
+                </div>
+                <div class="textos-legales">
+                    <a href="#">Aviso legal</a>
+                    <a href="#">Política de privacidad</a>
+                    <a href="#">Política de cookies</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script src="js/animado.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,97 @@
+/* PARAMETROS GENERALES */
+
+:root {
+    /* --ColorFondo: #f7f9fb; */
+    --ColorFondo: white;
+    --ColorSecundario: #000000;
+    --ColorTerciario: red;
+    --ColorGris: rgb(99, 99, 99);
+    --FontPrincipal: 'Montserrat', sans-serif;
+    --FontSize: 3.3rem;
+    --FontWeight: 800;
+}
+
+html {
+    font-size: 50%;
+    box-sizing: border-box;
+    font-family: var(--FontPrincipal);
+}
+
+body {
+    font-size: 2.6rem;
+    font-family: var(--FontPrincipal);
+}
+
+/* CONTENEDOR GENERAL */
+
+.contenedor {
+    /* width: 85%;
+    margin: auto; */
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 90%;
+    /* Ajusta este valor según el ancho deseado del contenedor */
+    padding: 2rem;
+    /* Ajusta este valor según el espacio de margen interno deseado */
+}
+
+/* HEADER */
+.Inicio .contenido{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 2rem;
+    text-align: center;
+    align-items: center;
+}
+
+.Inicio .contenido a {
+    color: var(--ColorSecundario);
+    text-decoration: none;
+}
+
+.Inicio .contenido a:hover {
+    color: var(--ColorTerciario);
+}
+
+/* FOOTER */
+
+footer {
+    padding: 1rem;
+}
+
+.linea {
+    border-top: 1px solid var(--ColorTerciario);
+}
+
+.final .contenido {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.logo,
+.redes-sociales,
+.textos-legales {
+    flex-basis: 33%;
+    text-align: center;
+}
+
+.logo img {
+    max-width: 100%;
+    height: auto;
+}
+
+.redes-sociales a {
+    margin: 0 0.5rem;
+}
+
+.textos-legales a{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    font-size: 2rem;
+    text-decoration: none;
+    color: #000000;
+}
